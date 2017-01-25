@@ -252,6 +252,58 @@ input[type=submit] {
 
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
+  
+  /*header*/
+  #masthead {
+    position: static;
+    margin: 0 auto;
+  }
+
+  .container{
+    max-width: 640px;
+
+  }
+
+  nav {
+    display: block;
+    clear:none;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 640px;
+  }
+
+  nav a {
+    margin-left: 60px;
+    padding-left: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 16px;
+  }
+
+  #logo {
+    position: relative;
+    width: 640px;
+    height: 90px;
+    float:none;
+    padding: 30px 30px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  /*main-section*/
+  
+
+
+  /*sidebar*/
+
+  .sidebar{
+    float: none;
+    max-width: 640px;
+    margin: 0px 0 40px 0;
+  }
+
+
+
 
 }
